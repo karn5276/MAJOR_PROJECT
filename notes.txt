@@ -1,0 +1,12 @@
+in views there is listings folder and there is index.js where our main home page and we can see there our  all listings.
+
+in show.ejs ;
+&#8377; this is Rs symbol indentity number
+singleListing.price.toLocaleString("en-IN")  = this is for storing the price in indian rs formate
+
+&copy;  ==  this is copywrite sysmbol.
+
+
+mergeParams:true = means in app.js we write this ==> app.use("/listings/:id/reviews",review);
+in this there is a id which we need this id in review.js in routes folder 
+and this id is gone in app.js for that we use mergeParams:true. to preserve that id.
